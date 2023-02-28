@@ -1,0 +1,19 @@
+#acordion section p{
+    display: none;
+    text-align: center;
+}
+#acordion section a{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+}
+#acordion section a:hover {
+ 
+    text-decoration: none;
+    background-color: red;
+}
+#acordion section:target p{
+   display: block;
+    text-align: center;
+}
